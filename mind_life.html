@@ -8,40 +8,80 @@
 			margin: 0;
 			padding: 0;
 		}
+		a {
+			text-decoration: none;
+			color: black;
+			height: 20px;
+		}
 		.header {
 			width: 100%;
 			height: 120px;
 			background: azure;
+			font-size: 40px;
+			line-height: 3;
+			text-align: center;
 		}
 		.nav_bar {
 			width: 100%;
 			height: 50px;
 			background: #e7edff;
+			display: flex;
+			justify-content: center;
+			padding-top: 5px;
+			padding-bottom: 5px;
 		}
 		.content {
 			width: 100%;
-			height: 700px;
+			min-height: 700px;
 			background: aliceblue;
 		}
 		.footer {
 			width: 100%;
 			height: 50px;
 			background: #e7edff;
+			text-align: center;
+		}
+		.icon_item {
+			margin-left: 10px;
+			background: azure;
+			border-radius: 9px;
+			padding: 10px;
+			/*height: 100%;*/
+			border: wheat 2px solid;
+			transition: .3s;
+		}
+		.icon_item:hover {
+			background: #84bdff;
+			color: white;
+		}
+		.content_center {
+			width: 900px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-around;
 		}
 	</style>
 </head>
 
 <body>
 <div class="header">
-
+	Cent <img src="images/logo.png" alt="" width="70" height="70"/> Prime
 </div>
 <div class="nav_bar">
-
+		<a href="mood.html" class="icon_item">             &emsp;心情画廊&emsp;</a>
+	&emsp;&emsp;&emsp;
+	<a href="mind_life.html" class="icon_item">        记录生活</a>
+	<a href="mind_professional.html" class="icon_item">专业学习</a>
 </div>
 <div class="content">
-
+	<div class="content_center">
+		<div style="margin: 100px auto;background: white; width: 700px; height: 450px; display: flex">
+			<div style="width: 400px;height:450px;background: url('images/index_bg2.png') no-repeat; background-size: cover"></div>&emsp;
+			<div style="width: 400px;">&emsp;&emsp;父亲是个不善于表达语言的人，但他默默地为我们付出了太多的爱，然而在我的眼前父母是严肃的，让我感到有些害怕，然而在那日我才体会到父亲对儿女的爱.....那天，我骑着车载着弟弟在放学回家的路上，突然那不争气的轮胎竟然爆掉了。我们知道牵着那辆自行车走路回家，回到家里已经快7点了。父亲工作还没有回来，村里又没有人修车，所以我只好把自行车扔在孤零零的角落，独自在院子里等着父亲回来。8点的时候，黑夜中有了个熟悉的身影，朝着这边走来——父亲回来了。父亲看上去是那样的疲劳。我告诉他我的自行车坏了。父亲二话没说，就放下手中的活儿，帮我修车，然而父亲又不擅于这一行，父亲辛辛苦苦的劳累了一天，还没有好好的休息就帮我修车，到了10点多我们都去休息了。父亲还在院子里专心的修车。早晨母亲才告诉我，父亲昨晚都没有好好休息，都在忙着修车。听着母亲的话，我感到心痛了起来。</div>
+		</div>
+	</div>
 </div>
-<div class="footer"></div>
+<div class="footer">copyright © 2018-2020 云南大学软件学院 蒲应明 版权所有</div>
 
 </body>
 </html>

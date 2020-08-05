@@ -8,40 +8,92 @@
 			margin: 0;
 			padding: 0;
 		}
+		a {
+			text-decoration: none;
+			color: black;
+			height: 20px;
+		}
 		.header {
 			width: 100%;
 			height: 120px;
 			background: azure;
+			font-size: 40px;
+			line-height: 3;
+			text-align: center;
 		}
 		.nav_bar {
 			width: 100%;
 			height: 50px;
 			background: #e7edff;
+			display: flex;
+			justify-content: center;
+			padding-top: 5px;
+			padding-bottom: 5px;
 		}
 		.content {
 			width: 100%;
-			height: 700px;
+			min-height: 700px;
 			background: aliceblue;
 		}
 		.footer {
 			width: 100%;
 			height: 50px;
 			background: #e7edff;
+			text-align: center;
+		}
+		.icon_item {
+			margin-left: 10px;
+			background: azure;
+			border-radius: 9px;
+			padding: 10px;
+			/*height: 100%;*/
+			border: wheat 2px solid;
+			transition: .3s;
+		}
+		.icon_item:hover {
+			background: #84bdff;
+			color: white;
+		}
+		.content_center {
+			width: 900px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-around;
+		}
+		.word1{
+			margin: 30px;
+			color: #d2ff87;
+			font-size: 50px;
 		}
 	</style>
 </head>
 
 <body>
 <div class="header">
-
+	Cent <img src="images/logo.png" alt="" width="70" height="70"/> Prime
 </div>
 <div class="nav_bar">
-
+	<a href="catch.html" class="icon_item">            &emsp;精彩捕捉&emsp;</a>
+	&emsp;&emsp;&emsp;
+	<a href="hobby_reading.html" class="icon_item">    读万卷书</a>
+	<a href="hobby_write.html" class="icon_item">      抚笔慰心</a>
 </div>
 <div class="content">
-
+	<div class="content_center">
+		<div style="margin: 100px auto;background: white; width: 700px; height: 450px; display: flex">
+			<div style="width: 400px;height:450px;background: url('images/index_bg2.png') no-repeat; background-size: cover"></div>
+			<div style="width: 400px;height:450px;background: url('images/index_bg4.png') no-repeat; background-size: cover">
+				<span class="word1">写</span><br/>
+				<span class="word1">作</span><br/>
+				<span class="word1">是</span><br/>
+				<span class="word1">一</span><br/>
+				<span class="word1">种</span><br/>
+				<span class="word1">&emsp;&emsp;乐&emsp;趣</span>
+			</div>
+		</div>
+	</div>
 </div>
-<div class="footer"></div>
+<div class="footer">copyright © 2018-2020 云南大学软件学院 蒲应明 版权所有</div>
 
 </body>
 </html>

@@ -4,58 +4,133 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>个人日志</title>
 	<style type="text/css">
+		.header {
+			width: 100%;
+			height: 120px;
+			background: azure;
+			font-size: 40px;
+			line-height: 3;
+			text-align: center;
+		}
+
 		* {
 			margin: 0;
 			padding: 0;
 		}
+		a {
+			text-decoration: none;
+			color: black;
+			height: 20px;
+		}
+
+		.header {
+			width: 100%;
+			height: 120px;
+			background: azure;
+		}
+
 		.nav_bar {
 			width: 100%;
 			height: 50px;
 			background: #e7edff;
+			display: flex;
+			justify-content: center;
+			padding-top: 5px;
+			padding-bottom: 5px;
 		}
+
 		.content {
 			width: 100%;
-			height: 850px;
+			min-height: 700px;
 			background: aliceblue;
 		}
+
 		.footer {
 			width: 100%;
 			height: 50px;
 			background: #e7edff;
+			text-align: center;
 		}
-		.logs_list {
-			width: 800px;
-			height: 100%;
-			margin: 0 auto;
+
+		.icon_item {
+			margin-left: 10px;
 			background: azure;
-			padding-top: 10px;
-		}
-		.item {
-			width: 100%;
-			height: 200px;
-			margin-top: 10px;
-			margin-bottom: 10px;
-			background: #e6ffff;
-		}
-		.bdr9 {
 			border-radius: 9px;
+			padding: 10px;
+			/*height: 100%;*/
+			border: wheat 2px solid;
+			transition: .3s;
+		}
+
+		.icon_item:hover {
+			background: #84bdff;
+			color: white;
+		}
+
+		.content_center {
+			width: 1000px;
+			margin: 0 auto;
 		}
 	</style>
 </head>
 
 <body>
+<div class="header">
+	Cent <img src="images/logo.png" alt="" width="70" height="70"/> Prime
+</div>
 <div class="nav_bar">
+	<a href="index.html" class="icon_item">            主&emsp;页</a>
+	&emsp;
+	<a href="daily.html" class="icon_item">            个人日志</a>
+	<a href="interesting.html" class="icon_item">      有趣分享</a>
+	<a href="timeline.html" class="icon_item">         时光记录</a>
+	<a href="leave.html" class="icon_item">            趣味留言 </a>
 
+	&emsp;&emsp;
+	<a href="catch.html" class="icon_item">            &emsp;精彩捕捉&emsp;</a>
+	&emsp;&emsp;
+	<a href="mood.html" class="icon_item">             &emsp;心情画廊&emsp;</a>
 </div>
 <div class="content">
-	<div class="logs_list">
-		<div class="item bdr9"></div>
-		<div class="item "></div>
-		<div class="item bdr9"></div>
-		<div class="item"></div>
+	<div class="content_center">
+		<div style="width: 100%; height: 200px; background: url('images/day1.png') no-repeat; background-size: cover">
+			<br/>
+			<h1>&emsp;&emsp;等雨季过后</h1>
+			<br/>
+			<p>
+				&emsp;&emsp;曾经在夕阳下洒满的笑声还留在记忆里，今夜，雨总是滴滴答答地下个不停。<br/>
+				&emsp;&emsp;这一阵雨下得昏天黑地，几个小时了还不停息，曾经动了多少个去找你的念头，还是没有找到一个合适的理由，那么就等吧！<br/>
+				&emsp;&emsp;等雨停，等天晴，等你的主动，等一个好时机。可我不想等待，岁月有限，青春不再。只怕一转身之间，鬓染霜花，皱纹就爬上了脸。
+			</p>
+		</div>
+		<div style="width: 100%; height: 50px;"></div>
+		<div style="width: 100%; height: 200px; background: url('images/day2.png') no-repeat; background-size: cover">
+			<br/>
+			<h1>&emsp;&emsp;留一径浅香给你</h1>
+			<br/>
+			<p>
+				&emsp;&emsp;行走在四月的小径上，微风吹过阵阵花香，拂过心头的不只是那瓣瓣的落红，还有那季节里最深最浓的温暖。<br/>
+				&emsp;&emsp;用浅绿色装点的世界，是纯净自然的，古典之中多了几许浪漫，那一抹浅粉色在摇曳的枝头嗖嗖飘下。<br/>
+				&emsp;&emsp;你从繁华处匆匆而来，周身的阳光气息浸透在我世界的每一个角落，仿佛整个季节都因你而温暖。
+			</p>
+
+		</div>
+	</div>
+	<div style="width: 100%; height: 50px;"></div>
+	<div class="content_center">
+		<div style="width: 100%; height: 200px; background: url('images/day3.png') no-repeat; background-size: cover; color: white;">
+			<br/>
+			<h1>&emsp;&emsp;聆听，岁月的呢喃</h1>
+			<br/>
+			<p>
+				&emsp;&emsp;记忆的闸门轻轻拉开，一份朦胧的念想在五月的阳光下妖娆，是谁把天堂里的花朵丢落？顺着五月的光阴走近了我执着的眼睛。<br/>
+				&emsp;&emsp;在五月的光阴下，似乎我更喜欢清浅二字，无论你是怎么样的执着或者刻意，我总想有一份不远不近的距离。<br/>
+				&emsp;&emsp;风过无痕，一直都是这样听说的。我只是不懂，风过怎么会没有痕迹？明明树在摇曳，叶儿在飘落，我的发丝在起舞，难道这不是痕迹？
+			</p>
+		</div>
 	</div>
 </div>
-<div class="footer"></div>
+<div class="footer">copyright © 2018-2020 云南大学软件学院 蒲应明 版权所有</div>
 
 </body>
 </html>

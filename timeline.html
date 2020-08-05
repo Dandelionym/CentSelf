@@ -8,40 +8,95 @@
 			margin: 0;
 			padding: 0;
 		}
+		a {
+			text-decoration: none;
+			color: black;
+			height: 20px;
+		}
 		.header {
 			width: 100%;
 			height: 120px;
 			background: azure;
+			font-size: 40px;
+			line-height: 3;
+			text-align: center;
 		}
+
 		.nav_bar {
 			width: 100%;
 			height: 50px;
 			background: #e7edff;
+			display: flex;
+			justify-content: center;
+			padding-top: 5px;
+			padding-bottom: 5px;
 		}
 		.content {
 			width: 100%;
-			height: 700px;
+			min-height: 700px;
 			background: aliceblue;
 		}
 		.footer {
 			width: 100%;
 			height: 50px;
 			background: #e7edff;
+			text-align: center;
+		}
+		.icon_item {
+			margin-left: 10px;
+			background: azure;
+			border-radius: 9px;
+			padding: 10px;
+			/*height: 100%;*/
+			border: wheat 2px solid;
+			transition: .3s;
+		}
+		.icon_item:hover {
+			background: #84bdff;
+			color: white;
+		}
+		.content_center {
+			width: 1000px;
+			margin: 0 auto;
 		}
 	</style>
 </head>
 
 <body>
 <div class="header">
-
+	Cent <img src="images/logo.png" alt="" width="70" height="70"/> Prime
 </div>
 <div class="nav_bar">
+	<a href="index.html" class="icon_item">            主&emsp;页</a>
+	&emsp;
+	<a href="daily.html" class="icon_item">            个人日志</a>
+	<a href="interesting.html" class="icon_item">      有趣分享</a>
+	<a href="timeline.html" class="icon_item">         时光记录</a>
+	<a href="leave.html" class="icon_item">            趣味留言 </a>
 
+	&emsp;&emsp;
+	<a href="catch.html" class="icon_item">            &emsp;精彩捕捉&emsp;</a>
+	&emsp;&emsp;
+	<!--	<a href="hobby_reading.html" class="icon_item">    读万卷书</a>-->
+	<!--	<a href="hobby_write.html" class="icon_item">      抚笔慰心</a>-->
+	<a href="mood.html" class="icon_item">             &emsp;心情画廊&emsp;</a>
+	&emsp;&emsp;
+	<!--	<a href="mind_life.html" class="icon_item">        记录生活</a>-->
+	<!--	<a href="mind_professional.html" class="icon_item">专业学习</a>-->
 </div>
 <div class="content">
-
+	<div class="content_center">
+		<div style="width: 100%; height: 300px; background: url('images/interesting1.png') no-repeat; background-size: cover;">
+			<br/><h1 style="text-align: center; color: white">生命就是那份美妙</h1><br/>
+			<div style="border-radius: 50%; width: 150px; height: 150px; background: url('images/circle.png') no-repeat; background-size: cover; margin: 0 auto"></div>
+		</div>
+		<div style="width: 100%; height: 100px;"></div>
+		<div style="width: 100%; height: 300px; background: url('images/interesting2.png') no-repeat; background-size: cover">
+			<br/><br/><br/><h1 style="text-align: center; font-size: 80px;color: white;">成就&emsp;&emsp;自我</h1>
+		</div>
+	</div>
 </div>
-<div class="footer"></div>
+<div class="footer">copyright © 2018-2020 云南大学软件学院 蒲应明 版权所有</div>
 
 </body>
 </html>

@@ -2,46 +2,144 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>CentPrime  ｜  主页</title>
+	<title>CentPrime | 主页</title>
 	<style type="text/css">
 		* {
 			margin: 0;
 			padding: 0;
 		}
+		a {
+			text-decoration: none;
+			color: black;
+			height: 20px;
+		}
 		.header {
 			width: 100%;
 			height: 120px;
 			background: azure;
+			font-size: 40px;
+			line-height: 3;
+			text-align: center;
 		}
 		.nav_bar {
 			width: 100%;
 			height: 50px;
 			background: #e7edff;
+			display: flex;
+			justify-content: center;
+			padding-top: 5px;
+			padding-bottom: 5px;
 		}
 		.content {
 			width: 100%;
-			height: 700px;
-			background: aliceblue;
+			min-height: 700px;
+			background: url("images/index_bg6.png") no-repeat;
+			background-size: cover;
 		}
 		.footer {
 			width: 100%;
 			height: 50px;
 			background: #e7edff;
+			text-align: center;
+		}
+		.icon_item {
+			margin-left: 10px;
+			background: azure;
+			border-radius: 9px;
+			padding: 10px;
+			/*height: 100%;*/
+			border: wheat 2px solid;
+			transition: .3s;
+		}
+		.icon_item:hover {
+			background: #84bdff;
+			color: white;
+		}
+		.content_center {
+			width: 900px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-around;
+		}
+		.word1{
+			margin: 30px;
+			color: white;
+			font-size: 50px;
+		}
+
+		.word2{
+			margin: 15px;
+			color: white;
+			font-size: 60px;
+		}
+
+		.word4{
+			margin: 15px;
+			color: white;
+			font-size: 60px;
+		}
+
+		.word3 {
+			color: white;
+			font-size: 25px;
 		}
 	</style>
 </head>
 
 <body>
 <div class="header">
-
+Cent <img src="images/logo.png" alt="" width="70" height="70"/> Prime
 </div>
 <div class="nav_bar">
-
+	<a href="index.html" class="icon_item">            主&emsp;页</a>
+	&emsp;
+	<a href="daily.html" class="icon_item">            个人日志</a>
+	<a href="interesting.html" class="icon_item">      有趣分享</a>
+	<a href="timeline.html" class="icon_item">         时光记录</a>
+	<a href="leave.html" class="icon_item">            趣味留言 </a>
+	&emsp;&emsp;
+	<a href="catch.html" class="icon_item">            &emsp;精彩捕捉&emsp;</a>
+	&emsp;&emsp;
+	<a href="mood.html" class="icon_item">             &emsp;心情画廊&emsp;</a>
+	&emsp;&emsp;
 </div>
 <div class="content">
+	<div class="content_center">
+		<div style="width: 250px; height: 400px; background: url('images/index_bg1.png') no-repeat; background-size: cover; padding-top: 100px">
+			<span class="word1">时</span><br/>
+			<span class="word1">光</span><br/>
+			<span class="word1">飞</span><br/>
+			<span class="word1">逝</span><br/>
+		</div>
 
+		<div style="width: 250px; height: 500px; background: url('images/index_bg2.png') no-repeat; background-size: cover;">
+			<div style="width: 250px; height: 200px;background: rgba(230,255,218,0.11)">
+				<span class="word2"></span><br/>
+				<span class="word2"></span><br/>
+			</div>
+			<div style="width: 250px; height: 300px;background: rgba(230,255,255,0.31)">
+				<span class="word2">日</span><br/>
+				<span class="word2">志</span><br/>
+			</div>
+		</div>
+
+		<div style="width: 200px; height: 500px; background: url('images/index_bg3.png') no-repeat; background-size: cover;">
+			<br/><br/><br/><br/><br/><br/>
+			<span class="word4"> 有趣</span><br/>
+		</div>
+		<div style="width: 200px; height: 500px; background: url('images/index_bg4.png') no-repeat; background-size: cover;">
+			<br/><br/><br/><br/><br/><br/>
+			<span class="word4"> 分享</span><br/>
+		</div>
+	</div>
+	<div class="content_center">
+		<div style="width: 100%; height: 200px; background: url('images/index_bg5.png') no-repeat; background-size: cover; text-align: center">
+			<br/><br/><br/><br/>
+			<span class="word3">活着就是幸福，健康就是财富</span>
+		</div>
+	</div>
 </div>
-<div class="footer"></div>
-
+<div class="footer">copyright © 2018-2020 云南大学软件学院 蒲应明 版权所有</div>
 </body>
 </html>
+

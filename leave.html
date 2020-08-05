@@ -2,46 +2,106 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>留言板</title>
+	<title>趣味留言</title>
 	<style type="text/css">
 		* {
 			margin: 0;
 			padding: 0;
 		}
+		a {
+			text-decoration: none;
+			color: black;
+			height: 20px;
+		}
 		.header {
 			width: 100%;
 			height: 120px;
 			background: azure;
+			font-size: 40px;
+			line-height: 3;
+			text-align: center;
 		}
+
 		.nav_bar {
 			width: 100%;
 			height: 50px;
 			background: #e7edff;
+			display: flex;
+			justify-content: center;
+			padding-top: 5px;
+			padding-bottom: 5px;
 		}
 		.content {
 			width: 100%;
-			height: 700px;
+			min-height: 700px;
 			background: aliceblue;
 		}
 		.footer {
 			width: 100%;
 			height: 50px;
 			background: #e7edff;
+			text-align: center;
+		}
+		.icon_item {
+			margin-left: 10px;
+			background: azure;
+			border-radius: 9px;
+			padding: 10px;
+			/*height: 100%;*/
+			border: wheat 2px solid;
+			transition: .3s;
+		}
+		.icon_item:hover {
+			background: #84bdff;
+			color: white;
+		}
+		.content_center {
+			width: 1000px;
+			margin: 0 auto;
 		}
 	</style>
 </head>
 
 <body>
 <div class="header">
-
+	Cent <img src="images/logo.png" alt="" width="70" height="70"/> Prime
 </div>
 <div class="nav_bar">
+	<a href="index.html" class="icon_item">            主&emsp;页</a>
+	&emsp;
+	<a href="daily.html" class="icon_item">            个人日志</a>
+	<a href="interesting.html" class="icon_item">      有趣分享</a>
+	<a href="timeline.html" class="icon_item">         时光记录</a>
+	<a href="leave.html" class="icon_item">            趣味留言 </a>
 
+	&emsp;&emsp;
+	<a href="catch.html" class="icon_item">            &emsp;精彩捕捉&emsp;</a>
+	&emsp;&emsp;
+	<!--	<a href="hobby_reading.html" class="icon_item">    读万卷书</a>-->
+	<!--	<a href="hobby_write.html" class="icon_item">      抚笔慰心</a>-->
+	<a href="mood.html" class="icon_item">             &emsp;心情画廊&emsp;</a>
+	&emsp;&emsp;
+	<!--	<a href="mind_life.html" class="icon_item">        记录生活</a>-->
+	<!--	<a href="mind_professional.html" class="icon_item">专业学习</a>-->
 </div>
 <div class="content">
-
+	<div class="content_center">
+		<br/><br/><br/><br/><br/>
+		<div style="width: 100%; height: 500px; background: url('images/interesting3.png') no-repeat; background-size: cover;">
+			<br/><h1 style="text-align: center; color: black">欢乐留言板</h1><br/>
+			<div style="padding-left: 40px">
+				<div>清风徐来&emsp;&emsp;2020年7月12日&emsp;12:57:01<br/><br/>寂寞时光，品一盏清茶，倚窗远眺，看远处不是风景的风景落入眼帘，看街上行色匆匆的人流，蓦然欢喜。感谢你出现在我生命中！</div>
+				<br/><hr/><br/>
+				<div>Dandelion&emsp;&emsp;2020年7月14日&emsp;10:21:08<br/><br/>相思染红了秋季，相思从此后却不在你的心里。人与人的相处总会有终结的时候，聚散无定，一切随缘！加油！</div>
+				<br/><hr/><br/>
+				<div>Dandelion&emsp;&emsp;2020年7月14日&emsp;15:11:18<br/><br/>走在喧闹的人流，低垂的杨柳，撩拨着初秋时光，目光流转处，风也仿佛穿越了千年，洗涤着往日的情怀。</div>
+				<br/><hr/><br/>
+				<div>Alex Sue&emsp;&emsp;2020年7月15日&emsp;10:00:10<br/><br/>今年夏天的雨水似乎特别的多，一言不合就从天上倾泻下来。等雨季过后，雨季什么时候才能过去。</div>
+			</div>
+		</div>
+	</div>
 </div>
-<div class="footer"></div>
+<div class="footer">copyright © 2018-2020 云南大学软件学院 蒲应明 版权所有</div>
 
 </body>
 </html>
